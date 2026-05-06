@@ -80,11 +80,10 @@ plugins:
   - source: github:quartz-community/table-of-contents
     enabled: true
     options: {}
-    order: 50
+    order: 9
     layout:
       position: right
-      priority: 50
-      display: all
+      priority: 10
   - source: github:quartz-community/crawl-links
     enabled: true
     options:
@@ -158,10 +157,10 @@ plugins:
       position: left
       priority: 50
   - source: github:quartz-community/graph
-    enabled: false
+    enabled: true
     layout:
       position: right
-      priority: 10
+      priority: 30
   - source: github:quartz-community/search
     enabled: true
     layout:
@@ -174,7 +173,7 @@ plugins:
     enabled: true
     layout:
       position: right
-      priority: 30
+      priority: 50
   - source: github:quartz-community/article-title
     enabled: true
     layout:
