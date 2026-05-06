@@ -1,7 +1,6 @@
 ---
 notion-id: d5970cdb-0b5e-406f-9e26-4d0315b6d969
 ---
-> In the [[展示Notion轉Obsidian結果]] folder
 # 簡介(2 min)
 
 ## (1) 石化工業概述
