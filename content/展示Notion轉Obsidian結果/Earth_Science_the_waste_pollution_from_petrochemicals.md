@@ -1,6 +1,7 @@
 ---
 notion-id: d5970cdb-0b5e-406f-9e26-4d0315b6d969
 ---
+[^1]:In the [[展示Notion轉Obsidian結果]] folder
 # 簡介(2 min)
 
 ## (1) 石化工業概述
@@ -177,3 +178,5 @@ Greenpeace | 一分鐘快速了解《國際塑膠公約》預計2024年聯合國
 > 台塑企業 | 環境永續：碳捕捉技術 [https://www.fpg.com.tw/esg/tw/issue/content/環境永續/碳捕捉技術](https://www.fpg.com.tw/esg/tw/issue/content/%E7%92%B0%E5%A2%83%E6%B0%B8%E7%BA%8C/%E7%A2%B3%E6%8D%95%E6%8D%89%E6%8A%80%E8%A1%93)
 
 the outline from ChatGPT [https://chat.openai.com/share/de09b299-0fb5-46b2-a699-9971c002801f](https://chat.openai.com/share/de09b299-0fb5-46b2-a699-9971c002801f)
+
+[^1]: 

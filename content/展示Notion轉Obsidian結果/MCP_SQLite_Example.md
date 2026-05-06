@@ -1,6 +1,7 @@
 ---
 notion-id: 15c588f9-cb7e-8191-af10-d4fbe3e3cf93
 ---
+[^1]:In the [[展示Notion轉Obsidian結果]] folder
 # 快速入門指南
 
 根據提供的資源，快速入門指南旨在幫助您在 5 分鐘內快速上手 MCP。指南中您將學習以下內容：
