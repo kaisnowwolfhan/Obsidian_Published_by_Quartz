@@ -1,3 +1,44 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+// 1. 定義顏色變數 (你的原稿)
+:root {
+  &[saved-theme="dark"] {
+    --h1-color: #d04255;
+    --h1-size: 2em;
+    --h2-color: #d57634;
+    --h2-size: 1.75em;
+    --h3-color: #e5b567;
+    --h3-size: 1.5em;
+    --h4-color: #9ae65c;
+    --h4-size: 1.25em;
+    --h5-color: #707afa;
+    --h5-size: 1em;
+    --h6-color: #9386c8;
+  }
+
+  &[saved-theme="light"] {
+    --h1-color: #f06477;
+    --h1-size: 2em;
+    --h2-color: #f5924b;
+    --h2-size: 1.75em;
+    --h3-color: #e9b35c;
+    --h3-size: 1.5em;
+    --h4-color: #a8c373;
+    --h4-size: 1.25em;
+    --h5-color: #7e9dff;
+    --h5-size: 1em;
+    --h6-color: #9078f1;
+  }
+}
+
+// 2. 關鍵步驟：將變數應用到標籤上 (這是你之前漏掉的)
+// 我們使用 article 選擇器來確保這些顏色只作用於筆記內容區
+article {
+  h1 { color: var(--h1-color) !important; font-size: var(--h1-size) !important; }
+  h2 { color: var(--h2-color) !important; font-size: var(--h2-size) !important; }
+  h3 { color: var(--h3-color) !important; font-size: var(--h3-size) !important; }
+  h4 { color: var(--h4-color) !important; font-size: var(--h4-size) !important; }
+  h5 { color: var(--h5-color) !important; font-size: var(--h5-size) !important; }
+  h6 { color: var(--h6-color) !important; }
+}

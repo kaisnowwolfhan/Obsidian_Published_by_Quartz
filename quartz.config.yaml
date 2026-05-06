@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: KAIHAN
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -16,9 +16,9 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
-      code: IBM Plex Mono
+      header: Chiron GoRound TC
+      body: LXGW WenKai TC
+      code: Source Code Pro
     colors:
       lightMode:
         light: "#faf8f8"
@@ -79,7 +79,12 @@ plugins:
     order: 40
   - source: github:quartz-community/table-of-contents
     enabled: true
+    options: {}
     order: 50
+    layout:
+      position: right
+      priority: 50
+      display: all
   - source: github:quartz-community/crawl-links
     enabled: true
     options:
