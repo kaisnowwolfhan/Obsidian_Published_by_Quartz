@@ -6,5 +6,5 @@ title: Welcome to KAIHAN's Page
 網址在這裡 https://kaisnowwolfhan.github.io/Obsidian_Published_by_Quartz/
 
 The entire publishing process is supported by `Quartz 5.0.0` and [it](https://youtu.be/6s6DT1yN4dw?si=k7MBJ-lAf-DkfPpr).
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+See the [documentation](https://bf60c891.quartz-1h4.pages.dev/#-get-started) for how to get started.
 And the [[Quartz-Theme_Installation]].
