@@ -118,12 +118,18 @@ pre {
     "Consolas",
     "Menlo",
     monospace;
-  // background: #1f2933 !important;
-  color: #e5e7eb;
   border: 1px solid rgba(148, 163, 184, 0.22);
+}
+
+:root[saved-theme="light"] pre {
+  color: #e5e7eb;
   box-shadow:
     0 10px 24px rgba(0, 0, 0, 0.14),
     inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+:root[saved-theme="dark"] pre {
+  background: #1f2933 !important;
 }
 
 pre code {
