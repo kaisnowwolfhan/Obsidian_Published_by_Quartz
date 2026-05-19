@@ -43,6 +43,7 @@ article {
   h6 { color: var(--h6-color) !important; }
 }
 
+// 調整 checkbox 的樣式
 article input[type="checkbox"] {
   // 1. 強制覆蓋瀏覽器預設外觀 (如果預設厚度改不動，這行是關鍵)
   appearance: none; 
