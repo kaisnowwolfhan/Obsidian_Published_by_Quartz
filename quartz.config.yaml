@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
+  locale: zh-TW
   baseUrl: kaisnowwolfhan.github.io/Obsidian_Published_by_Quartz
   ignorePatterns:
     - private
