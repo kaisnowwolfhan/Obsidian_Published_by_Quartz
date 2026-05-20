@@ -43,6 +43,26 @@ article {
   h6 { color: var(--h6-color) !important; }
 }
 
+// 針對左側導覽列（Explorer）的檔案與資料夾項目
+.explorer {
+  // 1. 調整所有列表項目的「前段距離」與「後段距離」
+  li {
+    margin-top: 6px !important;    // 類似 Word 的增加與前段距離，可自行調整數值（如 4px ~ 10px）
+  }
+
+  // 2. 調整文字本身的行高，讓點擊區域更大、更不容易擠在一起
+  a.link, button.folder-button {
+    line-height: 1.6 !important;   // 預設通常較窄，改為 1.6 會明顯舒適很多
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+  }
+  
+  // 3. 選填：如果你希望資料夾（Folder）與上一個檔案之間拉開更明顯的距離
+  /*.folder-outer {
+    margin-top: 10px !important;   // 讓大分類之間隔得更開
+  }*/
+}
+
 // 調整 checkbox 的樣式
 article input[type="checkbox"] {
   // 1. 強制覆蓋瀏覽器預設外觀 (如果預設厚度改不動，這行是關鍵)
