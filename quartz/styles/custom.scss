@@ -151,6 +151,11 @@ pre {
 
 :root[saved-theme="dark"] pre {
   background: #1f2933 !important;
+  // 加上深色模式專屬的陰影：一圈極淡的邊界發光 + 外圍深色陰影
+  box-shadow: 
+    0 10px 30px rgba(0, 0, 0, 0.5), 
+    0 1px 3px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05); 
 }
 
 pre code {
@@ -187,4 +192,19 @@ pre::-webkit-scrollbar-thumb {
 
 pre::-webkit-scrollbar-thumb:hover {
   background: rgba(148, 163, 184, 0.78);
+}
+
+// 修正淺色模式下，程式碼區塊內「所有不具備特定色彩規則（素顏）」的文字
+:root[saved-theme="light"] {
+  pre code {
+    // 1. 先將整個代碼區塊的基底文字顏色（包括那些淺灰藍色）強制改為清晰的深色
+    color: #1e293b !important; 
+  }
+
+  // 2. 轉折點：放行那些本來就有被成功識別、有給予高亮 Token 的彩色元素！
+  // 透過 :not 排除掉純文字，讓真正有語法高亮 class 的元件（如 YAML 的 key、數字、字串）恢復它們原本的顏色
+  pre code span[class*="token"],
+  pre code span[style*="color"] {
+    color: inherit !important; 
+  }
 }
