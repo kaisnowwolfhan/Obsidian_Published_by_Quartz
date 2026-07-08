@@ -73,7 +73,7 @@ $$
 <center><font color="#7f7f7f">披薩烘烤外送紀錄表（分類範例）</font></center>
 「顧客評價」作為目標欄位，即為 label
 ，而其他向度則為 features。
-建立學習演算法的最後一個步驟──<font color="#ff0000">預測(prediction)</font>。這個 example 屬於「分類問題」，而 ==分類的演算法皆為監督式學習 ==。
+建立學習演算法的最後一個步驟──<font color="#ff0000">預測(prediction)</font>。這個 example 屬於「分類問題」，而 ==分類的演算法皆為監督式學習== 。
 挑選出「烤箱溫度」與「烤箱濕度」這兩欄位
 
 ![分類分群、監督式學習、演算法__1|561](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/分類分群、監督式學習、演算法__1.jpg)
@@ -125,9 +125,11 @@ KNN, K-Nearest Neighbor，中文稱作「<font color="#ff0000">K-最近鄰居法
 3. 根據分群重心，判斷各點是否需要重新再分群
 ![分類分群、監督式學習、演算法_K-平均演算法|616](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/分類分群、監督式學習、演算法_K-平均演算法.jpg)
 <center><font color="#646a73">判斷樣本點是否需重新分群</font></center>
+
 # 02 基本的神經網路架構
 ## 2-1 神經網路是 AI 的重要技術
 如果輸入有三個 variables，輸出有兩個 variables，就代表輸入是三維，輸出是二維。可以用和多不同的方法學習這個 function，例如 <font color="#ff 0000">迴歸分析(regression analysis)</font> 或 ML 的 <font color="#ff0000">神經網路(neural network)</font>。
+
 > [!question] 迴歸分析
 > 迴歸分析是一種分析數據的方法，目的是要了解 <u>2 個或多個</u> variables 之間是否**相關**、**相關方向**與**強度如何**，並建立數學模型來觀察特定的 variable
 - - -
@@ -139,6 +141,7 @@ KNN, K-Nearest Neighbor，中文稱作「<font color="#ff0000">K-最近鄰居法
 | <center><b>輸入層</b></center> | <center><b>隱藏層</b></center> | <center><b>輸出層</b></center> |
 | --------------------------- | --------------------------- | --------------------------- |
 | 接受刺激，往後傳遞                   | <u>處理資料</u>，往後傳遞            | 做出反應 / 得出結果                 |
+
 ![NN_基本架構_|491](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/NN_基本架構_.jpg)
 <center><font color="#646a73">基本的深度學習模型(函數學習機)</font></center>
 NN 相比 regression 有很大的好處是，它不需要知道 original function & 假設，all you need to decide is：

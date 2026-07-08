@@ -1,0 +1,16 @@
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.folder == "國立中山大學/法規分項"
+        - '!file.basename.contains("法規")'
+    order:
+      - file.name
+      - Tag
+      - 原法規
+    sort:
+      - property: Tag
+        direction: ASC
+    columnSize:
+      note.Tag: 331
