@@ -2,9 +2,9 @@
 title: Welcome to KAIHAN's Page
 ---
 
-歡迎來到 楷翰KAIHAN 的 Obsidian 發布首頁！
-網址在這裡 https://kaisnowwolfhan.github.io/Obsidian_Published_by_Quartz/
+歡迎來到 KAIHAN 的筆記首頁！
+欲取得完整 Markdown 檔，請至 [Google Drive](https://drive.google.com/drive/folders/1YBWVLicFcQU1I8OoZSch2LrAxGk4qCSQ?usp=drive_link)，建議以 Obsidian 筆記軟體開啟。
 
-The entire publishing process is supported by `Quartz 5.0.0` and [it](https://youtu.be/6s6DT1yN4dw?si=k7MBJ-lAf-DkfPpr).
-See the [documentation](https://bf60c891.quartz-1h4.pages.dev/#-get-started) for how to get started.
-And the [[Quartz-Theme_Installation]].
+*Update frequency: Irregular*
+The entire publishing process is supported by `Quartz 5.0.0`.
+See the [documentation](https://bf60c891.quartz-1h4.pages.dev/#-get-started) and [this video](https://youtu.be/6s6DT1yN4dw?si=k7MBJ-lAf-DkfPpr)for how to get started.
