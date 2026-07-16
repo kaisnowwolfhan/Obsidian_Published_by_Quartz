@@ -10,10 +10,10 @@ views:
         - '!file.basename.contains("法規")'
     order:
       - file.name
-      - Tag
-      - 原法規
+      - 法規分類
+      - 相關文件
     sort:
-      - property: Tag
+      - property: 法規分類
         direction: ASC
     columnSize:
       note.Tag: 331

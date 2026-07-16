@@ -140,10 +140,11 @@
       "installedAt": "2026-07-14T17:24:42.631Z"
     },
     "graph": {
-      "source": "github:quartz-community/graph",
-      "resolved": "https://github.com/quartz-community/graph.git",
-      "commit": "46f0ba1c3c0cc484697572e7bcf315fa384d80d2",
-      "installedAt": "2026-07-14T17:24:45.241Z"
+      "source": "github:isle-blu/graph#fix/local-graph-slug-decoding",
+      "resolved": "https://github.com/isle-blu/graph.git",
+      "commit": "121d387ce0ddb2f6083428639b2dbab0fc3e9107",
+      "ref": "fix/local-graph-slug-decoding",
+      "installedAt": "2026-07-16T15:13:42.133Z"
     },
     "hard-line-breaks": {
       "source": "github:quartz-community/hard-line-breaks",
@@ -186,17 +187,6 @@
       "resolved": "https://github.com/quartz-community/page-title.git",
       "commit": "a1c1fe0a9c6a5ce1acf6efa01d473a7d9850e2a3",
       "installedAt": "2026-07-14T17:24:45.877Z"
-    },
-    "quartz-themes": {
-      "source": {
-        "name": "quartz-themes",
-        "repo": "github:saberzero1/quartz-themes",
-        "subdir": "plugin"
-      },
-      "resolved": "https://github.com/saberzero1/quartz-themes.git",
-      "commit": "945135e8b70576753d0591e1713fe56553100b3d",
-      "subdir": "plugin",
-      "installedAt": "2026-07-14T17:31:05.737Z"
     },
     "reader-mode": {
       "source": "github:quartz-community/reader-mode",
