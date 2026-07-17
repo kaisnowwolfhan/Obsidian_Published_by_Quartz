@@ -1,13 +1,13 @@
+filters:
+  and:
+    - file.folder == "國立中山大學/法規分項"
+    - '!file.basename.contains("法規")'
 properties:
   note.原法規:
     displayName: 相關文件
 views:
   - type: table
     name: 表格
-    filters:
-      and:
-        - file.folder == "國立中山大學/法規分項"
-        - '!file.basename.contains("法規")'
     order:
       - file.name
       - 法規分類

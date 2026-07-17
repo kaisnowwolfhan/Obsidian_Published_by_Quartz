@@ -208,3 +208,21 @@ pre::-webkit-scrollbar-thumb:hover {
     color: inherit !important; 
   }
 }
+
+// 高窄型圖片的置中置中與寬度限制
+.tall-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+// 雙圖並排與浮動排版
+.img-pair img {
+  display: inline-block;
+  width: 48%;
+}
+
+.img-pair img:nth-child(even) {
+  float: right;
+}

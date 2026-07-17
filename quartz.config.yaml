@@ -219,8 +219,8 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        My GitHub Repository: https://github.com/kaisnowwolfhan/Obsidian_Published_by_Quartz
+        Quartz Official Discord Community: https://discord.gg/cRFFHYye7t
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
@@ -287,6 +287,10 @@ plugins:
     layout:
       position: right
       priority: 10
+  - source: github:quartz-community/tui
+    enabled: true
+    options: {}
+    order: 50
 layout:
   groups:
     toolbar:
