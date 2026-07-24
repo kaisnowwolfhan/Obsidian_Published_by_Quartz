@@ -140,11 +140,10 @@
       "installedAt": "2026-07-24T03:12:18.135Z"
     },
     "graph": {
-      "source": "github:isle-blu/graph#fix/local-graph-slug-decoding",
-      "resolved": "https://github.com/isle-blu/graph.git",
-      "commit": "121d387ce0ddb2f6083428639b2dbab0fc3e9107",
-      "ref": "fix/local-graph-slug-decoding",
-      "installedAt": "2026-07-24T03:34:28.905Z"
+      "source": "github:quartz-community/graph",
+      "resolved": "https://github.com/quartz-community/graph.git",
+      "commit": "411971434ab698c495dfc42870eb02d3bc539b3a",
+      "installedAt": "2026-07-24T09:02:39.590Z"
     },
     "hard-line-breaks": {
       "source": "github:quartz-community/hard-line-breaks",
