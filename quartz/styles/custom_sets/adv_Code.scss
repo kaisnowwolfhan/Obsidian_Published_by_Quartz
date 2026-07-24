@@ -1,0 +1,38 @@
+// 這是用來調整程式碼的樣式(包含修復部分 對應程式語言色彩配置)
+
+/* inline code */
+:not(pre) > code {
+  padding: 0.18rem 0.42rem;
+  margin: 0 0.08rem;
+  border-radius: 6px;
+  font-size: 0.88em;
+  background: color-mix(in srgb, var(--secondary) 14%, transparent);
+  color: var(--secondary);
+  border: 1px solid color-mix(in srgb, var(--secondary) 20%, transparent);
+  white-space: break-spaces;
+}
+/* code block */
+pre {
+  position: relative !important;
+  margin: 1.35rem 0;
+  padding: 1.15rem 3.4rem 1.15rem 1.15rem !important;
+  min-height: 3.2rem;
+  border-radius: 14px;
+  overflow-x: auto;
+  overflow-y: visible !important;
+  font-size: 0.92rem;
+  line-height: 1.7;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  background: var(--code-background-color) !important;
+}
+/* code block shadow */
+:root[saved-theme="light"] pre {
+  box-shadow:
+    0 10px 24px rgba(0, 0, 0, 0.14),
+    inset 0 1px 0 rgba(0, 0, 0, 0.04);
+}
+:root[saved-theme="dark"] pre {
+  box-shadow: 
+    0 10px 24px rgba(255, 255, 255, 0.14), 
+    inset 0 1px 0 rgba(255, 255, 255, 0.04); 
+}

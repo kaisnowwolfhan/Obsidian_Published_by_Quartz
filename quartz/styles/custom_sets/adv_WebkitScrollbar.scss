@@ -1,0 +1,19 @@
+// 這是用來調整 網頁全局 滾動條樣式
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+/* 滾動條背景 */
+::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+/* 滾動條拖曳手把 */
+::-webkit-scrollbar-thumb {
+  background: var(--webkit-scrollbar-thumb-color) !important;
+  border-radius: 999px;
+}
+/* 滾動條拖曳手把 */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--webkit-scrollbar-thumb_hover-color) !important;
+}

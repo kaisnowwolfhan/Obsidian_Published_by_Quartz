@@ -7,9 +7,11 @@ const NotFound: QuartzComponent = ({ cfg, ctx }: QuartzComponentProps) => {
 
   return (
     <article class="popover-hint">
-      <h1>404</h1>
+      <h1>{i18n(cfg.locale).pages.error.title}</h1>
       <p>{i18n(cfg.locale).pages.error.notFound}</p>
+      <p>Either this page is private or doesn't exist.</p> 
       <a href={baseDir}>{i18n(cfg.locale).pages.error.home}</a>
+      <pre><code>          ██████████                _________________<br/>        ██░░░░░░░░░░██             | You got lost... |<br/>      ██░░░░░░░░░░░░░░██         🗩 ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾<br/>    ██░░██░░░░░░██░░░░░░██     🗩<br/>    ██░░██░░░░░░██░░▒▒░░██<br/>    ██░░░░░░░░░░░░░░▒▒░░██<br/>      ██▒▒▒▒▒▒▒▒▒▒▒▒░░██<br/>        ██████████████<br/>    ████░░░░██░░░░▒▒████<br/>  ██░░░░░░██░░░░░░▒▒██▒▒██<br/>██░░░░██▒▒▒▒▒▒▒▒▒▒██░░▒▒▒▒██<br/>██▒▒░░░░██████████░░░░▒▒██▒▒██<br/>██▒▒░░░░░░░░░░░░░░░░░░▒▒██▒▒██<br/>  ██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒████▒▒██<br/>    ██████████████████    ██<br/></code></pre>
       <script
         dangerouslySetInnerHTML={{
           __html: `

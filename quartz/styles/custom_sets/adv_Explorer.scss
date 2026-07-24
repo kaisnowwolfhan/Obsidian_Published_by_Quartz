@@ -1,0 +1,20 @@
+// 這是用來調整 左側導覽列(Explorer)的檔案與資料夾 間的 margin
+
+.explorer {
+  /* 1. 調整所有列表項目的「前段距離」與「後段距離」*/
+  li {
+    margin-top: 6px !important;    // 類似 Word 的增加與前段距離，可自行調整數值（如 4px ~ 10px）
+  }
+
+  /* 2. 調整文字本身的行高，讓點擊區域更大、更不容易擠在一起 */
+  a.link, button.folder-button {
+    line-height: 1.6 !important;   // 預設通常較窄，改為 1.6 會明顯舒適很多
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+  }
+  
+  /* 3. 選填：如果你希望資料夾（Folder）與上一個檔案之間拉開更明顯的距離 */
+//   .folder-outer {
+//     margin-top: 10px !important;   // 讓大分類之間隔得更開
+//   }
+}

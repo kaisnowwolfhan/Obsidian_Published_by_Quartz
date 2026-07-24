@@ -1,0 +1,11 @@
+// 這是用來調整 embed content 的樣式
+@use "../variables.scss" as *;
+
+.transclude[data-embed-alias~=clean] {
+    border-left: none;
+    padding-left: 0;
+}
+
+.transclude[data-embed-alias~=clean] > .transclude-src {
+    display: none;
+}

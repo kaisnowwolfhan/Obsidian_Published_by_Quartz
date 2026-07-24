@@ -1,0 +1,12 @@
+// 這是用來更改 各個子標題 的顏色和字級大小
+
+/* 將變數應用到標籤上 */
+// 使用 article 選擇器來確保這些顏色只作用於筆記內容區
+article {
+  h1 { color: var(--h1-color) !important; font-size: var(--h1-size) !important; }
+  h2 { color: var(--h2-color) !important; font-size: var(--h2-size) !important; }
+  h3 { color: var(--h3-color) !important; font-size: var(--h3-size) !important; }
+  h4 { color: var(--h4-color) !important; font-size: var(--h4-size) !important; }
+  h5 { color: var(--h5-color) !important; font-size: var(--h5-size) !important; }
+  h6 { color: var(--h6-color) !important; }
+}

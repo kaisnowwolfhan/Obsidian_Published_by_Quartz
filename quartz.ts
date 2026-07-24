@@ -1,4 +1,8 @@
 import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
+import { registerCondition } from "./quartz/plugins/loader/conditions"
+  
+// 創建只在首頁顯示的 customCondition
+registerCondition("index-only", (props) => props.fileData.slug === "index" )
 
 const config = await loadQuartzConfig()
 export default config

@@ -28,6 +28,6 @@ export const NotFoundPageType: QuartzPageTypePlugin = () => ({
     ]
   },
   layout: "404",
-  frame: "minimal",
+  frame: "default",
   body: NotFound,
 })

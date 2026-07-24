@@ -1,7 +1,17 @@
 @use "./variables.scss" as *;
+@use "./custom_sets/adv_Subheading.scss" as *;
+@use "./custom_sets/adv_Explorer.scss" as *;
+@use "./custom_sets/adv_Checkbox.scss" as *;
+@use "./custom_sets/adv_Code.scss" as *;
+@use "./custom_sets/adv_Image.scss" as *;
+@use "./custom_sets/adv_Divider.scss" as *;
+@use "./custom_sets/ListCards.scss" as *;
+@use "./custom_sets/adv_Callouts.scss" as *;
+@use "./custom_sets/adv_Embed.scss" as *;
+@use "./custom_sets/adv_WebkitScrollbar.scss" as *;
 
-// put your custom CSS here!
-// 1. 定義顏色變數 (你的原稿)
+// put your custom(test) CSS here!
+/* 定義顏色變數 */
 :root {
   &[saved-theme="dark"] {
     --h1-color: #d04255;
@@ -16,7 +26,6 @@
     --h5-size: 1em;
     --h6-color: #9386c8;
   }
-
   &[saved-theme="light"] {
     --h1-color: #f06477;
     --h1-size: 2em;
@@ -31,198 +40,24 @@
     --h6-color: #9078f1;
   }
 }
-
-// 2. 關鍵步驟：將變數應用到標籤上 (這是你之前漏掉的)
-// 我們使用 article 選擇器來確保這些顏色只作用於筆記內容區
-article {
-  h1 { color: var(--h1-color) !important; font-size: var(--h1-size) !important; }
-  h2 { color: var(--h2-color) !important; font-size: var(--h2-size) !important; }
-  h3 { color: var(--h3-color) !important; font-size: var(--h3-size) !important; }
-  h4 { color: var(--h4-color) !important; font-size: var(--h4-size) !important; }
-  h5 { color: var(--h5-color) !important; font-size: var(--h5-size) !important; }
-  h6 { color: var(--h6-color) !important; }
-}
-
-// 針對左側導覽列（Explorer）的檔案與資料夾項目
-.explorer {
-  // 1. 調整所有列表項目的「前段距離」與「後段距離」
-  li {
-    margin-top: 6px !important;    // 類似 Word 的增加與前段距離，可自行調整數值（如 4px ~ 10px）
+/* 定義code背景顏色 */
+:root {
+  &[saved-theme="dark"] {
+    --code-background-color: #1f2933;
   }
-
-  // 2. 調整文字本身的行高，讓點擊區域更大、更不容易擠在一起
-  a.link, button.folder-button {
-    line-height: 1.6 !important;   // 預設通常較窄，改為 1.6 會明顯舒適很多
-    padding-top: 2px !important;
-    padding-bottom: 2px !important;
-  }
-  
-  // 3. 選填：如果你希望資料夾（Folder）與上一個檔案之間拉開更明顯的距離
-  /*.folder-outer {
-    margin-top: 10px !important;   // 讓大分類之間隔得更開
-  }*/
-}
-
-// 調整 checkbox 的樣式
-article input[type="checkbox"] {
-  // 1. 強制覆蓋瀏覽器預設外觀 (如果預設厚度改不動，這行是關鍵)
-  appearance: none; 
-  -webkit-appearance: none;
-
-  // 2. 設定尺寸與邊框厚度
-  width: 1.1rem;
-  height: 1.1rem;
-  border-style: solid !important;
-  border-width: 1.5px !important; // 在這裡調整你想要的厚度（例如 2px, 3px）
-  
-  // 3. 設定邊框顏色 (引用 Quartz 變數)
-  border-color: var(--secondary) !important;
-  border-radius: 4px;
-  
-  position: relative;
-  cursor: pointer;
-  vertical-align: left; //checkbox在縱向的位置，left 實際是對齊字的正中，middle, right 反而太靠下
-  background-color: var(--light);
-
-  // 4. 定義「打勾」後的樣子 (因為用了 appearance: none，必須手動補回勾選視覺)
-  &:checked {
-    background-color: var(--secondary);
-    border-color: var(--secondary) !important;
-
-    &::after {
-      content: "";
-      position: absolute;
-      top: 1px;
-      left: 5px;
-      width: 4px; //視為一個長方形
-      height: 8px;
-      border: solid var(--light);
-      border-width: 0 2px 2px 0; // 勾勾的粗度
-      transform: rotate(45deg);
-    }
+  &[saved-theme="light"] {
+    --code-background-color: white;
   }
 }
-
-// 調整行內程式碼的樣式
-:not(pre) > code {
-  padding: 0.18rem 0.42rem;
-  margin: 0 0.08rem;
-  border-radius: 6px;
-  font-size: 0.88em;
-  font-family:
-    "JetBrains Mono",
-    "Cascadia Code",
-    "Fira Code",
-    "Consolas",
-    "Menlo",
-    monospace;
-  background: color-mix(in srgb, var(--secondary) 12%, transparent);
-  color: var(--secondary);
-  border: 1px solid color-mix(in srgb, var(--secondary) 18%, transparent);
-  white-space: break-spaces;
+/* 定義滑動條拖曳手把顏色 */
+:root {
+    --webkit-scrollbar-thumb-color: rgba(148, 163, 184, 0.6);
+    --webkit-scrollbar-thumb_hover-color: rgba(148, 163, 184, 0.3);
 }
-
-pre {
-  position: relative !important;
-  margin: 1.35rem 0;
-  padding: 1.15rem 3.4rem 1.15rem 1.15rem !important;
-  min-height: 3.2rem;
-  border-radius: 14px;
-  overflow-x: auto;
-  overflow-y: visible !important;
-  font-size: 0.92rem;
-  line-height: 1.7;
-  font-family:
-    "JetBrains Mono",
-    "Cascadia Code",
-    "Fira Code",
-    "Consolas",
-    "Menlo",
-    monospace;
-  border: 1px solid rgba(148, 163, 184, 0.22);
-}
-
-:root[saved-theme="light"] pre {
-  color: #e5e7eb;
-  box-shadow:
-    0 10px 24px rgba(0, 0, 0, 0.14),
-    inset 0 1px 0 rgba(255, 255, 255, 0.04);
-}
-
-:root[saved-theme="dark"] pre {
-  background: #1f2933 !important;
-  // 加上深色模式專屬的陰影：一圈極淡的邊界發光 + 外圍深色陰影
-  box-shadow: 
-    0 10px 30px rgba(0, 0, 0, 0.5), 
-    0 1px 3px rgba(0, 0, 0, 0.3),
-    inset 0 1px 0 rgba(255, 255, 255, 0.05); 
-}
-
-pre code {
-  display: block;
-  padding: 0 !important;
-  margin: 0 !important;
-  font-size: inherit;
-  line-height: inherit;
-  font-family: inherit;
-  background: transparent !important;
-  color: inherit;
-  border: none !important;
-  white-space: pre;
-  tab-size: 2;
-}
-
-pre span {
-  font-family: inherit;
-}
-
-pre::-webkit-scrollbar {
-  height: 8px;
-}
-
-pre::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 999px;
-}
-
-pre::-webkit-scrollbar-thumb {
-  background: rgba(148, 163, 184, 0.48);
-  border-radius: 999px;
-}
-
-pre::-webkit-scrollbar-thumb:hover {
-  background: rgba(148, 163, 184, 0.78);
-}
-
-// 修正淺色模式下，程式碼區塊內「所有不具備特定色彩規則（素顏）」的文字
-:root[saved-theme="light"] {
-  pre code {
-    // 1. 先將整個代碼區塊的基底文字顏色（包括那些淺灰藍色）強制改為清晰的深色
-    color: #1e293b !important; 
+/* 在網頁連結加上波浪底線 */
+a{
+  &.external { // this whole section was added
+    text-decoration: gray underline wavy;
+	  opacity: 0.9;
   }
-
-  // 2. 轉折點：放行那些本來就有被成功識別、有給予高亮 Token 的彩色元素！
-  // 透過 :not 排除掉純文字，讓真正有語法高亮 class 的元件（如 YAML 的 key、數字、字串）恢復它們原本的顏色
-  pre code span[class*="token"],
-  pre code span[style*="color"] {
-    color: inherit !important; 
-  }
-}
-
-// 高窄型圖片的置中置中與寬度限制
-.tall-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-// 雙圖並排與浮動排版
-.img-pair img {
-  display: inline-block;
-  width: 48%;
-}
-
-.img-pair img:nth-child(even) {
-  float: right;
 }

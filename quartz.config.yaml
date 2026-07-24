@@ -12,6 +12,8 @@ configuration:
     - private
     - templates
     - .obsidian
+    - Excalidraw
+    - copilot
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
@@ -69,7 +71,7 @@ plugins:
       parseTags: true
       parseArrows: true
       parseBlockReferences: true
-      enableInHtmlEmbed: false
+      enableInHtmlEmbed: true
       enableYouTubeEmbed: true
       enableVideoEmbed: true
       enableCheckbox: true
@@ -77,9 +79,11 @@ plugins:
   - source: github:quartz-community/github-flavored-markdown
     enabled: true
     order: 40
+    options:
+      enableSmartyPants: true
+      linkHeadings: true
   - source: github:quartz-community/table-of-contents
     enabled: true
-    options: {}
     order: 9
     layout:
       position: right
@@ -88,6 +92,7 @@ plugins:
     enabled: true
     options:
       markdownLinkResolution: shortest
+      openLinksInNewTab: true
     order: 60
   - source: github:quartz-community/description
     enabled: true
@@ -167,7 +172,7 @@ plugins:
   - source: github:quartz-community/backlinks
     enabled: true
     layout:
-      position: right
+      position: afterBody
       priority: 50
   - source: github:quartz-community/article-title
     enabled: true
@@ -221,8 +226,6 @@ plugins:
       links:
         My GitHub Repository: https://github.com/kaisnowwolfhan/Obsidian_Published_by_Quartz
         Quartz Official Discord Community: https://discord.gg/cRFFHYye7t
-  - source: github:quartz-community/recent-notes
-    enabled: false
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
@@ -252,6 +255,37 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
+  - source: github:quartz-community/recent-notes
+    enabled: true
+    options:
+      title: "最近的筆記:"
+      limit: 5
+      linkToMore: false
+      showTags: false
+      hideTagPages: true
+      hideFolderPages: true
+    order: 50
+    layout:
+      position: afterBody
+      priority: 70
+      condition: index-only
+  - source: github:HappyPotatoHead/quartz5-clickable-images
+    enabled: true
+    options:
+      minScaleFactor: 1.5
+      maxScaleFactor: 3
+      borderRadius: 8px
+    order: 50
+  - source: github:HappyPotatoHead/quartz5-drawer
+    enabled: true
+    options:
+      collapseByDefault: false
+    order: 50
+    layout:
+      position: left
+      priority: 40
+      display: mobile-only
+      group: toolbar
   - source: github:isle-blu/graph#fix/local-graph-slug-decoding
     enabled: true
     options:
@@ -287,10 +321,6 @@ plugins:
     layout:
       position: right
       priority: 10
-  - source: github:quartz-community/tui
-    enabled: true
-    options: {}
-    order: 50
 layout:
   groups:
     toolbar:
