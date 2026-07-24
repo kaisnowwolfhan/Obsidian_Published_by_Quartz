@@ -67,6 +67,12 @@
       "commit": "3066ef3eaf88c08c7e123d07cc3be8e07b2f4e10",
       "installedAt": "2026-07-24T03:12:15.625Z"
     },
+    "content-meta-github-tracing": {
+      "source": "github:kaisnowwolfhan/content-meta-github-tracing",
+      "resolved": "https://github.com/kaisnowwolfhan/content-meta-github-tracing.git",
+      "commit": "bcfba86f91c365be7b955cb2ddeb41cfe4d413c3",
+      "installedAt": "2026-07-24T16:38:28.887Z"
+    },
     "content-page": {
       "source": "github:quartz-community/content-page",
       "resolved": "https://github.com/quartz-community/content-page.git",

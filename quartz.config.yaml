@@ -325,6 +325,18 @@ plugins:
     layout:
       position: right
       priority: 10
+  - source: github:kaisnowwolfhan/content-meta-github-tracing
+    enabled: true
+    options:
+      showReadingTime: true
+      showComma: true
+      showGithubSource: false
+      repoLink: ""
+      branch: ""
+    order: 50
+    layout:
+      position: beforeBody
+      priority: 20
 layout:
   groups:
     toolbar:

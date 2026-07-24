@@ -28,7 +28,7 @@ Let ai cook 的結果就是 a complete mess，堅持要我用 v4 的 ts-override
 ### Finally
 [HappyPotatoHead](https://github.com/HappyPotatoHead) 的 [quartz5-drawer](https://github.com/HappyPotatoHead/quartz5-drawer)，總結就是到了 v5 需要大動干戈的時候，就只能靠 Externalplugin(如果我多會點 TypeScript 也不需要和 ai '有禮貌地' 爭論😭)
 That said，匯入 quartz5-drawer 後，決定好你要放的位置，然後記得在 layout 加上 `display: modile-only` 。我是選擇放在 Reader-mode button 的右邊，以下
-```yaml
+```yaml title="quartz.congig.yaml"
 - source: github:HappyPotatoHead/quartz5-drawer
     enabled: true
     options:
