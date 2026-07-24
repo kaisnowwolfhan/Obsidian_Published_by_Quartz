@@ -12,6 +12,7 @@ configuration:
     - private
     - templates
     - .obsidian
+    - .trash
     - Excalidraw
     - copilot
   theme:
