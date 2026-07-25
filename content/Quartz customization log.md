@@ -1,17 +1,30 @@
+---
+publish: true
+created: 2026-07-25T17:42:34.796+08:00
+modified: 2026-07-25T23:21:11.444+08:00
+---
+
 [^1]: 作為一名只會 basic Python and C++ 的菜鳥，我很多 customize 的過程都是靠 arguing with ai 產生結果的，so 希望我把這些 a bit tricky 的過程記錄下來給您參考。
 推薦其他人的 customization: [Eilleen(fanteastick)](https://quartz.eilleeenz.com/Quartz-customization-log), [morrowind-modding](https://morrowind-modding.github.io/contributing/custom-formatting-features)
+
 # 待完成
+
 - Content folder history(卡在 Recent-notes plugin-option-title 放不了連結)
 - navigation-progress on Top(css 屬性被宣告在 `base.scss`)
 - [FloatingButtons](https://github.com/fanteastick/quartz-test/blob/60033035a1fb02f273502692b5c7f7084ae5cc08/quartz/components/_FloatingButtons.tsx#L15)
 
 # 已完成
-## Clickable-image 
+
+## Clickable-image
+
 ### Tried
+
 [vazome](https://github.com/vazome)的[quartz-clickable-images-zoom-plugin](https://github.com/vazome/quartz-clickable-images-zoom-plugin)，but v4不相容v5 plugin(v4內嵌在Quartz core，v5用外置community plugin，有對應plugin structure)。
 
 ### Finally
+
 [HappyPotatoHead](https://github.com/HappyPotatoHead)的[quartz5-clickable-images](https://github.com/HappyPotatoHead/quartz5-clickable-images)，只需要運行，無需調整參數即可安裝
+
 ```powershell
 npx quartz plugin add github:HappyPotatoHead/quartz5-clickable-images
 npx quartz plugin install --latest github:HappyPotatoHead/quartz5-clickable-images
@@ -20,12 +33,16 @@ npx quartz plugin install --latest github:HappyPotatoHead/quartz5-clickable-imag
 具體如何實現誰管呢~
 
 ## Drawer(mobile-only TOC)
+
 ### Tried
+
 Let ai cook 的結果就是 a complete mess，堅持要我用 v4 的 ts-override 真的傻眼🙄
 
 ### Finally
+
 [HappyPotatoHead](https://github.com/HappyPotatoHead) 的 [quartz5-drawer](https://github.com/HappyPotatoHead/quartz5-drawer)，總結就是到了 v5 需要大動干戈的時候，就只能靠 Externalplugin(如果我多會點 TypeScript 也不需要和 ai '有禮貌地' 爭論😭)
 That said，匯入 quartz5-drawer 後，決定好你要放的位置，然後記得在 layout 加上 `display: modile-only` 。我是選擇放在 Reader-mode button 的右邊，以下
+
 ```yaml title="quartz.congig.yaml"
 - source: github:HappyPotatoHead/quartz5-drawer
     enabled: true
@@ -40,21 +57,28 @@ That said，匯入 quartz5-drawer 後，決定好你要放的位置，然後記�
 ```
 
 ## Recent-notes only shows on the homepage
+
 ### Tried
+
 聽從 ai 和 official v5 documentation 的建議加入 `Component.ConditionalRender()` ，結果瘋狂報錯。
 一是可能官方 upgrade 時遺漏，沒把 `Component` 刪掉；二是可能 `ConditionalRenderConfig()` 就可以，但知識貧乏的我還沒捉摸出怎麼實現。
 
 ### Finally
+
 其實官方文檔就有說到一個[更簡單的方法](https://bf60c891.quartz-1h4.pages.dev/layout-components#ts-override-2)，但我一直忽視😃。我是這樣實現的
+
 ```ts
 registerCondition("index-only", (props) => props.fileData.slug === "index" )
 ```
+
 對...就這麼簡單，照著格式填你想要的 ConditionName 、一個判別式，然後再把 `Condition: index-only` 放進 `quartz.congig.yaml` 裡即可。判別式裡的物件我發現有個搜尋邏輯，大概是 `./quartz/components/type.ts → 對應物件的連結檔 → ... ` 。
 然後一樣不知道怎麼弄可以讓 ai 幫忙整理個列表自己選，不建議直接讓 ai 實作，除非你大概知道它在幹什麼。
 
 ## List-cards
+
 完全抄自 [fanteastick](https://github.com/fanteastick/quartz-test/blob/v4/quartz/styles/_list-cards.scss)，只有微調圓角(圓角狂魔欣喜😍):
-![List-cards─Quartz_customization_log](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/List-cards─Quartz_customization_log.png)
+![List-cards─Quartz\_customization\_log](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/List-cards─Quartz_customization_log.png)
+
 ```scss
 article.list-cards ul li {
 	...
@@ -64,7 +88,9 @@ article.list-cards ul li {
 ```
 
 ## Callouts border-radius
+
 如上圓角狂魔，
+
 ```scss
 .callout {
   border-radius: 16px;
@@ -73,7 +99,9 @@ article.list-cards ul li {
 ```
 
 ## Divider
+
 同樣出自 [fanteastick](https://github.com/fanteastick)，但一時找不到詳細出處，就放我的在下方參考
+
 ```scss
 hr {
   overflow: visible;
@@ -97,9 +125,11 @@ hr {
 ```
 
 ## Code, pre(code)
+
 這次就真的是 ai 神力
-![Code,_pre(code)─Quartz_customization_log](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/Code,_pre(code)─Quartz_customization_log.png)
-![Code,_pre(code)─Quartz_customization_log_1](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/Code,_pre(code)─Quartz_customization_log_1.png)
+![Code,\_pre(code)─Quartz\_customization\_log](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/Code,_pre\(code\)─Quartz_customization_log.png)
+![Code,\_pre(code)─Quartz\_customization\_log\_1](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/Code,_pre\(code\)─Quartz_customization_log_1.png)
+
 ```scss
 /* inline code */
 :not(pre) > code {
@@ -148,7 +178,9 @@ pre {
 ```
 
 ## Webkit-scrollbar
+
 效果請參考上個客製化項目圖片
+
 ```scss
 ::-webkit-scrollbar {
   height: 8px;
@@ -174,8 +206,10 @@ pre {
 ```
 
 ## CheckBox
-![CheckBox─Quartz_customization_log](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/CheckBox─Quartz_customization_log.png)
-![CheckBox─Quartz_customization_log_1](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/CheckBox─Quartz_customization_log_1.png)
+
+![CheckBox─Quartz\_customization\_log](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/CheckBox─Quartz_customization_log.png)
+![CheckBox─Quartz\_customization\_log\_1](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/CheckBox─Quartz_customization_log_1.png)
+
 ```scss
 article input[type="checkbox"] {
   /* 1. 強制覆蓋瀏覽器預設外觀 (如果預設厚度改不動，這行是關鍵) */
@@ -219,7 +253,9 @@ article input[type="checkbox"] {
 ```
 
 ## Subheadings
-![Subheadings─Quartz_customization_log|200](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/Subheadings─Quartz_customization_log.png)
+
+![Subheadings─Quartz\_customization\_log|200](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/Subheadings─Quartz_customization_log.png)
+
 ```scss
 :root {
   &[saved-theme="dark"] {
@@ -258,3 +294,5 @@ article {
   h6 { color: var(--h6-color) !important; }
 }
 ```
+
+## GitHub Tracer(source, blame, history)
