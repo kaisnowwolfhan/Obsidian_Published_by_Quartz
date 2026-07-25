@@ -290,7 +290,20 @@ plugins:
       priority: 40
       display: mobile-only
       group: toolbar
-  - source: github:quartz-community/graph
+  - source: github:kaisnowwolfhan/content-meta-github-tracing
+    enabled: true
+    options:
+      showReadingTime: true
+      showComma: true
+      showGithubTracer: true
+      inIndex: false
+      repoLink: https://github.com/kaisnowwolfhan/Obsidian_Published_by_Quartz
+      branch: v5
+    order: 50
+    layout:
+      position: beforeBody
+      priority: 20
+  - source: github:isle-blu/graph#fix/local-graph-slug-decoding
     enabled: true
     options:
       localGraph:
@@ -325,18 +338,6 @@ plugins:
     layout:
       position: right
       priority: 10
-  - source: github:kaisnowwolfhan/content-meta-github-tracing
-    enabled: true
-    options:
-      showReadingTime: true
-      showComma: true
-      showGithubSource: false
-      repoLink: ""
-      branch: ""
-    order: 50
-    layout:
-      position: beforeBody
-      priority: 20
 layout:
   groups:
     toolbar:

@@ -1,11 +1,9 @@
 [^1]: 作為一名只會 basic Python and C++ 的菜鳥，我很多 customize 的過程都是靠 arguing with ai 產生結果的，so 希望我把這些 a bit tricky 的過程記錄下來給您參考。
 推薦其他人的 customization: [Eilleen(fanteastick)](https://quartz.eilleeenz.com/Quartz-customization-log), [morrowind-modding](https://morrowind-modding.github.io/contributing/custom-formatting-features)
 # 待完成
-- Quartz sync timeline/gitHistory (auto) → [git-history](https://github.com/pomber/git-history) 可能v5不相容
-- file blame(git變化)
-- file gitSource
 - Content folder history(卡在 Recent-notes plugin-option-title 放不了連結)
 - navigation-progress on Top(css 屬性被宣告在 `base.scss`)
+- [FloatingButtons](https://github.com/fanteastick/quartz-test/blob/60033035a1fb02f273502692b5c7f7084ae5cc08/quartz/components/_FloatingButtons.tsx#L15)
 
 # 已完成
 ## Clickable-image 

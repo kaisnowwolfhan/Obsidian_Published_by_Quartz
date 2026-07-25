@@ -70,8 +70,8 @@
     "content-meta-github-tracing": {
       "source": "github:kaisnowwolfhan/content-meta-github-tracing",
       "resolved": "https://github.com/kaisnowwolfhan/content-meta-github-tracing.git",
-      "commit": "bcfba86f91c365be7b955cb2ddeb41cfe4d413c3",
-      "installedAt": "2026-07-24T16:38:28.887Z"
+      "commit": "ccf022df3bcef397730faa5cb9dd97de13ee3bc0",
+      "installedAt": "2026-07-25T08:53:11.589Z"
     },
     "content-page": {
       "source": "github:quartz-community/content-page",
@@ -146,10 +146,11 @@
       "installedAt": "2026-07-24T03:12:18.135Z"
     },
     "graph": {
-      "source": "github:quartz-community/graph",
-      "resolved": "https://github.com/quartz-community/graph.git",
-      "commit": "411971434ab698c495dfc42870eb02d3bc539b3a",
-      "installedAt": "2026-07-24T09:02:39.590Z"
+      "source": "github:isle-blu/graph#fix/local-graph-slug-decoding",
+      "resolved": "https://github.com/isle-blu/graph.git",
+      "commit": "121d387ce0ddb2f6083428639b2dbab0fc3e9107",
+      "ref": "fix/local-graph-slug-decoding",
+      "installedAt": "2026-07-25T09:04:14.247Z"
     },
     "hard-line-breaks": {
       "source": "github:quartz-community/hard-line-breaks",
