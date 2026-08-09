@@ -12,3 +12,11 @@ replit.nix
 .quartz/
 quartz/cli/tui/dist/
 Quartz_LocalPlugins/
+templates/
+.trash/
+Excalidraw/
+copilot/
+_gsdata_/
+國立中山大學/_gsdata_/
+書籍/_gsdata_/
+Self-Learning/Developer/_gsdata_/
