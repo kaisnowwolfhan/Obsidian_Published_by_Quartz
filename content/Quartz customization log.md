@@ -1,34 +1,48 @@
 ---
 publish: true
 ---
+
 [^1]: 作為一名只會 basic Python and C++ 的菜鳥，我很多 customize 的過程都是靠 arguing with ai 產生結果的，so 希望我把這些 a bit tricky 的過程記錄下來給您參考。
 推薦其他人的 customization: [Eilleen(fanteastick)](https://quartz.eilleeenz.com/Quartz-customization-log), [morrowind-modding](https://morrowind-modding.github.io/contributing/custom-formatting-features)
+
 # 待完成
+
 - Content folder history(卡在 Recent-notes plugin-option-title 放不了連結)
 - navigation-progress on Top(css 屬性被宣告在 `base.scss`)
 - [FloatingButtons](https://github.com/fanteastick/quartz-test/blob/60033035a1fb02f273502692b5c7f7084ae5cc08/quartz/components/_FloatingButtons.tsx#L15)
 
 # 已完成
-## Clickable-image 
+
+## Clickable-image
+
 ### Tried
+
 [vazome](https://github.com/vazome)的[quartz-clickable-images-zoom-plugin](https://github.com/vazome/quartz-clickable-images-zoom-plugin)，but v4不相容v5 plugin(v4內嵌在Quartz core，v5用外置community plugin，有對應plugin structure)。
 
 ### Finally
+
 [HappyPotatoHead](https://github.com/HappyPotatoHead)的[quartz5-clickable-images](https://github.com/HappyPotatoHead/quartz5-clickable-images)，只需要運行，無需調整參數即可安裝
+
 ```powershell
 npx quartz plugin add github:HappyPotatoHead/quartz5-clickable-images
 npx quartz plugin install --latest github:HappyPotatoHead/quartz5-clickable-images
 ```
+
 具體如何實現誰管呢~
 
 ## Drawer(mobile-only TOC)
+
 ### Tried
+
 Let ai cook 的結果就是 a complete mess，堅持要我用 v4 的 ts-override 真的傻眼🙄
 
 ### Finally
+
 [HappyPotatoHead](https://github.com/HappyPotatoHead) 的 [quartz5-drawer](https://github.com/HappyPotatoHead/quartz5-drawer)，總結就是到了 v5 需要大動干戈的時候，就只能靠 Externalplugin(如果我多會點 TypeScript 也不需要和 ai '有禮貌地' 爭論😭)
 That said，匯入 quartz5-drawer 後，決定好你要放的位置，然後記得在 layout 加上 `display: modile-only` 。我是選擇放在 Reader-mode button 的右邊，以下
+
 > [!abstract]- quartz.congig.yaml
+>
 > ```yaml
 > - source: github:HappyPotatoHead/quartz5-drawer
 >     enabled: true
@@ -43,22 +57,30 @@ That said，匯入 quartz5-drawer 後，決定好你要放的位置，然後記�
 > ```
 
 ## Recent-notes only shows on the homepage
+
 ### Tried
+
 聽從 ai 和 official v5 documentation 的建議加入 `Component.ConditionalRender()` ，結果瘋狂報錯。
 一是可能官方 upgrade 時遺漏，沒把 `Component` 刪掉；二是可能 `ConditionalRenderConfig()` 就可以，但知識貧乏的我還沒捉摸出怎麼實現。
 
 ### Finally
+
 其實官方文檔就有說到一個[更簡單的方法](https://bf60c891.quartz-1h4.pages.dev/layout-components#ts-override-2)，但我一直忽視😃。我是這樣實現的
+
 ```ts title="quartz.ts"
 registerCondition("index-only", (props) => props.fileData.slug === "index" )
 ```
+
 對...就這麼簡單，照著格式填你想要的 ConditionName 、一個判別式，然後再把 `Condition: index-only` 放進 `quartz.congig.yaml` 裡即可。判別式裡的物件我發現有個搜尋邏輯，大概是 `./quartz/components/type.ts → 對應物件的連結檔 → ... ` 。
 然後一樣不知道怎麼弄可以讓 ai 幫忙整理個列表自己選，不建議直接讓 ai 實作，除非你大概知道它在幹什麼。
 
 ## List-cards
+
 完全抄自 [fanteastick](https://github.com/fanteastick/quartz-test/blob/v4/quartz/styles/_list-cards.scss)，只有微調圓角(圓角狂魔欣喜😍):
-![List-cards─Quartz_customization_log](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/List-cards─Quartz_customization_log.png)
+![List-cards─Quartz\_customization\_log](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/List-cards─Quartz_customization_log.png)
+
 > [!abstract]- ListCards.scss
+>
 > ```scss
 > article.list-cards ul li {
 > 	...
@@ -68,18 +90,24 @@ registerCondition("index-only", (props) => props.fileData.slug === "index" )
 > ```
 
 ## Callouts border-radius
+
 如上圓角狂魔，
-> [!abstract]- adv_Callouts.scss
+
+> [!abstract]- adv\_Callouts.scss
+>
 > ```scss
 > .callout {
 >   border-radius: 16px;
 >   overflow: hidden; // 確保子元素不會超出圓角範圍
 > }
 > ```
-> 
+
 ## Divider
+
 同樣出自 [fanteastick](https://github.com/fanteastick/quartz-test/blob/v4/quartz/components/pages/Content.tsx)，但一時找不到 `scss` 詳細出處，就放我的在下方參考
-> [!abstract]- adv_Divider.scss
+
+> [!abstract]- adv\_Divider.scss
+>
 > ```scss
 > hr {
 >   overflow: visible;
@@ -103,10 +131,13 @@ registerCondition("index-only", (props) => props.fileData.slug === "index" )
 > ```
 
 ## Code, pre(code)
+
 這次就真的是 ai 神力
-![Code,pre(code)─Quartz_customization_log](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/Code,_pre(code)─Quartz_customization_log.png)
-![Code,pre(code)─Quartz_customization_log_1](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/Code,_pre(code)─Quartz_customization_log_1.png)
-> [!abstract]- adv_Code.scss
+![Code,pre(code)─Quartz\_customization\_log](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/Code,_pre\(code\)─Quartz_customization_log.png)
+![Code,pre(code)─Quartz\_customization\_log\_1](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/Code,_pre\(code\)─Quartz_customization_log_1.png)
+
+> [!abstract]- adv\_Code.scss
+>
 > ```scss
 > /* inline code */
 > :not(pre) > code {
@@ -155,8 +186,11 @@ registerCondition("index-only", (props) => props.fileData.slug === "index" )
 > ```
 
 ## WebKit-scrollbar
+
 效果請參考上個客製化項目圖片
-> [!abstract]- adv_WebkitScrollbar.scss
+
+> [!abstract]- adv\_WebkitScrollbar.scss
+>
 > ```scss
 > ::-webkit-scrollbar {
 >   height: 8px;
@@ -182,26 +216,29 @@ registerCondition("index-only", (props) => props.fileData.slug === "index" )
 > ```
 
 ## CheckBox
-![CheckBox─Quartz_customization_log](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/CheckBox─Quartz_customization_log.png)
-![CheckBox─Quartz_customization_log_1](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/CheckBox─Quartz_customization_log_1.png)
-> [!abstract]- adv_Checkbox.scss
+
+![CheckBox─Quartz\_customization\_log](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/CheckBox─Quartz_customization_log.png)
+![CheckBox─Quartz\_customization\_log\_1](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/CheckBox─Quartz_customization_log_1.png)
+
+> [!abstract]- adv\_Checkbox.scss
+>
 > ```scss
 > article input[type="checkbox"] {
 >   /* 1. 強制覆蓋瀏覽器預設外觀 (如果預設厚度改不動，這行是關鍵) */
 >   appearance: none; 
 >   -webkit-appearance: none;
-> 
+>
 >   /* 2. 設定尺寸、邊框厚度與圓角 */
 >   width: 1.1rem;
 >   height: 1.1rem;
 >   border-style: solid !important;
 >   border-width: 1.5px !important; // 在這裡調整你想要的厚度（例如 2px, 3px）
 >   border-radius: 4px;
-> 
+>
 >   /* 3. 設定邊框與填充顏色 */
 >   border-color: var(--secondary) !important;
 >   background-color: var(--light);
-> 
+>
 >   /* 4. 設定位置 */
 >   position: relative;
 >   cursor: pointer;
@@ -211,7 +248,7 @@ registerCondition("index-only", (props) => props.fileData.slug === "index" )
 >   &:checked {
 >     background-color: var(--secondary);
 >     border-color: var(--secondary) !important;
-> 
+>
 >     &::after {
 >       content: "";
 >       position: absolute;
@@ -228,8 +265,11 @@ registerCondition("index-only", (props) => props.fileData.slug === "index" )
 > ```
 
 ## Subheadings
-![Subheadings─Quartz_customization_log|200](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/Subheadings─Quartz_customization_log.png)
-> [!abstract]- adv_Subheading.scss
+
+![Subheadings─Quartz\_customization\_log|200](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/Subheadings─Quartz_customization_log.png)
+
+> [!abstract]- adv\_Subheading.scss
+>
 > ```scss
 > :root {
 >   &[saved-theme="dark"] {
@@ -270,8 +310,11 @@ registerCondition("index-only", (props) => props.fileData.slug === "index" )
 > ```
 
 ## GitHub Tracer(source, blame, history)
+
 在 [content-meta](https://github.com/quartz-community/content-meta) 的基礎上新增 [fanteastick 新增的 GitHub source, blame, history 等等](https://github.com/fanteastick/quartz-test/blob/v4/quartz/components/ContentMeta.tsx) ，並配合 ai 適配化 [v5](https://github.com/kaisnowwolfhan/content-meta-github-tracing)。
+
 > [!abstract]- ContentMeta.tsx
+>
 > ```tsx
 > ...
 > const isIndexPage = fileData.slug === "index";
@@ -316,7 +359,9 @@ registerCondition("index-only", (props) => props.fileData.slug === "index" )
 > ```
 
 還有新增一些 options 來提供 customization:
+
 > [!abstract]- quartz.config.yaml
+>
 > ```yaml
 > plugins:
 >   - source: github:kaisnowwolfhan/content-meta-github-tracing
@@ -329,4 +374,3 @@ registerCondition("index-only", (props) => props.fileData.slug === "index" )
 >         repoLink: "https://github.com/user/your-repo"
 >         branch: "v5"
 > ```
-
