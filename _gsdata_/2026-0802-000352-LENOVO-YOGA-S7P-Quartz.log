@@ -1,0 +1,64 @@
+2026-08-02 00:03:54: -- 分析已由 On Schedule Min=0 Hour=0 DayWeek=0  啟動
+2026-08-02 00:03:54: 左: 讀取狀態檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/_gsdata_/_file_state_v4._gs
+2026-08-02 00:03:54: 左: 讀取狀態檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/國立中山大學 並與根狀態合併
+2026-08-02 00:03:54: 左: 讀取狀態檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍 並與根狀態合併
+2026-08-02 00:03:57: 右: 讀取狀態檔案 goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/_gsdata_/_file_state_v4._gs
+2026-08-02 00:04:04: 變更：26，衝突：0，複製時間：0，修正狀態：0，錯誤：0, All: 169
+2026-08-02 00:04:04: Left to Right: Copy File: 26 
+2026-08-02 00:04:04: == 同步作業已由 On Schedule Min=0 Hour=0 DayWeek=0  啟動
+2026-08-02 00:04:04: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz
+2026-08-02 00:04:04: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz
+2026-08-02 00:04:04: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz
+2026-08-02 00:04:04: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz
+2026-08-02 00:04:04: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz
+2026-08-02 00:04:04: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz
+2026-08-02 00:04:04: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz
+2026-08-02 00:04:04: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz
+2026-08-02 00:04:04: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz
+2026-08-02 00:04:04: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz
+2026-08-02 00:04:05: GsConnectAndSetRoot1 connected to goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz
+2026-08-02 00:04:05: GsConnectAndSetRoot1 connected to goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz
+2026-08-02 00:04:05: GsConnectAndSetRoot1 connected to goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz
+2026-08-02 00:04:05: GsConnectAndSetRoot1 connected to goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz
+2026-08-02 00:04:05: GsConnectAndSetRoot1 connected to goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz
+2026-08-02 00:04:05: GsConnectAndSetRoot1 connected to goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz
+2026-08-02 00:04:05: GsConnectAndSetRoot1 connected to goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz
+2026-08-02 00:04:05: GsConnectAndSetRoot1 connected to goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz
+2026-08-02 00:04:05: GsConnectAndSetRoot1 connected to goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz
+2026-08-02 00:04:05: GsConnectAndSetRoot1 connected to goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz
+2026-08-02 00:04:19: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/國立中山大學/法規分項/住、退宿 注意事項.md' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/國立中山大學/法規分項/住、退宿 注意事項.md' (5,167)
+2026-08-02 00:04:19: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/.obsidian/command-palette.json' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/.obsidian/command-palette.json' (77)
+2026-08-02 00:04:19: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/國立中山大學/法規分項/培力英檢 與 英語文檢定 相關認證與獎勵標準.md' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/國立中山大學/法規分項/培力英檢 與 英語文檢定 相關認證與獎勵標準.md' (7,805)
+2026-08-02 00:04:19: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/private/publishing 文本格式規則.md' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/private/publishing 文本格式規則.md' (369)
+2026-08-02 00:04:19: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/國立中山大學/法規分項/校內捐贈獎學金細項.md' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/國立中山大學/法規分項/校內捐贈獎學金細項.md' (702)
+2026-08-02 00:04:20: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/國立中山大學/法規分項/選課系統須知.md' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/國立中山大學/法規分項/選課系統須知.md' (13,046)
+2026-08-02 00:04:20: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/國立中山大學/法規分項/圖書館 與 學生餐廳營業時間.md' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/國立中山大學/法規分項/圖書館 與 學生餐廳營業時間.md' (801)
+2026-08-02 00:04:20: 儲存狀態檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/國立中山大學/_gsdata_/_file_state_v4._gs
+2026-08-02 00:04:21: 建立資料夾 goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/書籍/人工智慧導論/內容/assets
+2026-08-02 00:04:21: > 複製新增 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_1.jpg' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_1.jpg' (1,537,380)
+2026-08-02 00:04:21: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/08 創作 AI.md' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/書籍/人工智慧導論/內容/08 創作 AI.md' (12,492)
+2026-08-02 00:04:21: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/03 圖像識別.md' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/書籍/人工智慧導論/內容/03 圖像識別.md' (10,280)
+2026-08-02 00:04:22: 複製新增 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/09 強化學習.md' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/書籍/人工智慧導論/內容/09 強化學習.md' (5,925)
+2026-08-02 00:04:22: 複製新增 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/10 未來世界.md' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/書籍/人工智慧導論/內容/10 未來世界.md' (76)
+2026-08-02 00:04:22: > 複製新增 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-3_條件式生成對抗網路─08_創作_AI.jpg' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/書籍/人工智慧導論/內容/assets/8-3_條件式生成對抗網路─08_創作_AI.jpg' (2,723,155)
+2026-08-02 00:04:22: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/04 影像識別.md' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/書籍/人工智慧導論/內容/04 影像識別.md' (8,284)
+2026-08-02 00:04:22: > 複製新增 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-4_循環式生成對抗網路─08_創作_AI.jpg' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/書籍/人工智慧導論/內容/assets/8-4_循環式生成對抗網路─08_創作_AI.jpg' (2,444,140)
+2026-08-02 00:04:23: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/.obsidian/workspace.json' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/.obsidian/workspace.json' (11,576)
+2026-08-02 00:04:23: > 複製新增 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-5_漫畫人臉生成─08_創作_AI.jpg' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/書籍/人工智慧導論/內容/assets/8-5_漫畫人臉生成─08_創作_AI.jpg' (2,164,914)
+2026-08-02 00:04:23: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/.obsidian/community-plugins.json' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/.obsidian/community-plugins.json' (860)
+2026-08-02 00:04:23: > 複製新增 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-5_漫畫人臉生成─08_創作_AI_1.jpg' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/書籍/人工智慧導論/內容/assets/8-5_漫畫人臉生成─08_創作_AI_1.jpg' (4,114,737)
+2026-08-02 00:04:26: < 複製新增 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_1.jpg' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_1.jpg' (1,537,380)
+2026-08-02 00:04:26: 複製新增 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_3.jpg' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_3.jpg' (978,916)
+2026-08-02 00:04:27: 複製新增 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI.jpg' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI.jpg' (764,770)
+2026-08-02 00:04:28: 複製新增 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_4.jpg' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_4.jpg' (826,558)
+2026-08-02 00:04:28: 複製新增 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_2.jpg' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_2.jpg' (969,124)
+2026-08-02 00:04:29: 複製新增 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_5.jpg' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_5.jpg' (1,041,061)
+2026-08-02 00:04:32: < 複製新增 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-3_條件式生成對抗網路─08_創作_AI.jpg' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/書籍/人工智慧導論/內容/assets/8-3_條件式生成對抗網路─08_創作_AI.jpg' (2,723,155)
+2026-08-02 00:04:32: 複製新增 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/數據空間與數據分佈─08_創作_AI.jpg' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/書籍/人工智慧導論/內容/assets/數據空間與數據分佈─08_創作_AI.jpg' (897,261)
+2026-08-02 00:04:33: < 複製新增 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-4_循環式生成對抗網路─08_創作_AI.jpg' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/書籍/人工智慧導論/內容/assets/8-4_循環式生成對抗網路─08_創作_AI.jpg' (2,444,140)
+2026-08-02 00:04:33: < 複製新增 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-5_漫畫人臉生成─08_創作_AI_1.jpg' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/書籍/人工智慧導論/內容/assets/8-5_漫畫人臉生成─08_創作_AI_1.jpg' (4,114,737)
+2026-08-02 00:04:34: < 複製新增 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-5_漫畫人臉生成─08_創作_AI.jpg' -> 'goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/content/書籍/人工智慧導論/內容/assets/8-5_漫畫人臉生成─08_創作_AI.jpg' (2,164,914)
+2026-08-02 00:04:34: 儲存狀態檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/_gsdata_/_file_state_v4._gs
+2026-08-02 00:04:34: 儲存狀態檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/_gsdata_/_file_state_v4._gs
+2026-08-02 00:04:36: 儲存狀態檔案 goodrive://www.googleapis.com/:personal:/for backup/for Obsidian/Quartz/_gsdata_/_file_state_v4._gs
+2026-08-02 00:04:38: == 同步完成。時間：00:00:34，速度：599.28 KB/s, 成功：26，錯誤：0

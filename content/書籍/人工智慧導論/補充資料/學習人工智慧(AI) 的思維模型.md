@@ -1,3 +1,6 @@
+---
+publish: true
+---
 ## 1. 表示學習與概念層次模型 (Representation Learning & Hierarchy of Concepts)
 深度學習的核心思維在於將世界理解為一個**巢狀的概念層次結構**。
 

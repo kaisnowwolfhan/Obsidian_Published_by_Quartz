@@ -1,0 +1,29 @@
+2026-08-05 00:29:27: -- 分析已由 On File Change, After Delay 啟動
+2026-08-05 00:29:27: 變更：12，衝突：0，複製時間：0，修正狀態：0，錯誤：0, All: 69
+2026-08-05 00:29:27: Left to Right: Copy File: 1 Delete File: 11 
+2026-08-05 00:29:27: == 同步作業已由 On File Change, After Delay 啟動
+2026-08-05 00:29:27: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Obsidian Books
+2026-08-05 00:29:27: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Obsidian Books
+2026-08-05 00:29:27: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Obsidian Books
+2026-08-05 00:29:27: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Obsidian Books
+2026-08-05 00:29:27: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Obsidian Books
+2026-08-05 00:29:27: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍
+2026-08-05 00:29:27: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍
+2026-08-05 00:29:27: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍
+2026-08-05 00:29:27: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍
+2026-08-05 00:29:27: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍
+2026-08-05 00:29:27: 覆寫 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/08 創作 AI.md' -> 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/08 創作 AI.md' (13,860)
+2026-08-05 00:29:27: 刪除檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_2.jpg
+2026-08-05 00:29:27: 刪除檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_3.jpg
+2026-08-05 00:29:27: 刪除檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI.jpg
+2026-08-05 00:29:27: 刪除檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_4.jpg
+2026-08-05 00:29:27: 刪除檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_5.jpg
+2026-08-05 00:29:27: 刪除檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_1.jpg
+2026-08-05 00:29:27: 刪除檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-3_條件式生成對抗網路─08_創作_AI.jpg
+2026-08-05 00:29:27: 刪除檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-5_漫畫人臉生成─08_創作_AI.jpg
+2026-08-05 00:29:27: 刪除檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-4_循環式生成對抗網路─08_創作_AI.jpg
+2026-08-05 00:29:27: 刪除檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-5_漫畫人臉生成─08_創作_AI_1.jpg
+2026-08-05 00:29:27: 刪除檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/數據空間與數據分佈─08_創作_AI.jpg
+2026-08-05 00:29:28: 儲存狀態檔案 C:/DatabaseOwnedByKen/Obsidian Books/_gsdata_/_file_state_v4._gs
+2026-08-05 00:29:28: 儲存狀態檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/_gsdata_/_file_state_v4._gs
+2026-08-05 00:29:28: == 同步完成。時間：00:00:01，速度：0.00/s, 成功：12，錯誤：0

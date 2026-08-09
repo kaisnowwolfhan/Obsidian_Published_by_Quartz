@@ -1,0 +1,6 @@
+2026-08-07 12:26:19: -- 分析已由 On File Change First Full Analyze Upon Folder Connect 啟動
+2026-08-07 12:26:19: 左: 讀取狀態檔案 C:/DatabaseOwnedByKen/Obsidian Personal/國立中山大學/_gsdata_/_file_state_v4._gs
+2026-08-07 12:26:19: 右: 讀取狀態檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/國立中山大學/_gsdata_/_file_state_v4._gs
+2026-08-07 12:26:19: 變更：36，衝突：0，複製時間：0，修正狀態：0，錯誤：0, All: 51
+2026-08-07 12:26:19: Right to Left: Copy File: 36 
+2026-08-07 12:26:19: Attn: 76% (36 / 47) 個檔案已變更 (不包含重新命名)，超過了 50% 的閾值。因此，工作不會自動同步。

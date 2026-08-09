@@ -35,6 +35,7 @@ lore:
   - 測試×1
   - 圖×1
   - 樹×1
+publish: true
 ---
 # 1-1 把問題化為函數
 ![Function_的唯一性](https://raw.githubusercontent.com/kaisnowwolfhan/Obsidian-Images/refs/heads/master/Function_的唯一性_.png)

@@ -1,0 +1,36 @@
+2026-07-31 10:45:18: -- 分析已由 On File Change, After Delay 啟動
+2026-07-31 10:45:18: 變更：13，衝突：0，複製時間：0，修正狀態：0，錯誤：0, All: 67
+2026-07-31 10:45:18: Left to Right: Copy File: 13 
+2026-07-31 10:45:18: == 同步作業已由 On File Change, After Delay 啟動
+2026-07-31 10:45:18: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Obsidian Books
+2026-07-31 10:45:18: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Obsidian Books
+2026-07-31 10:45:18: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Obsidian Books
+2026-07-31 10:45:18: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍
+2026-07-31 10:45:18: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍
+2026-07-31 10:45:18: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Obsidian Books
+2026-07-31 10:45:18: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍
+2026-07-31 10:45:18: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍
+2026-07-31 10:45:18: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Obsidian Books
+2026-07-31 10:45:18: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍
+2026-07-31 10:45:18: 建立資料夾 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets
+2026-07-31 10:45:18: 覆寫 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/08 創作 AI.md' -> 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/08 創作 AI.md' (12,229)
+2026-07-31 10:45:18: > 複製新增 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_1.jpg' -> 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_1.jpg' (1,537,380)
+2026-07-31 10:45:18: 複製新增 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_4.jpg' -> 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_4.jpg' (826,558)
+2026-07-31 10:45:18: 複製新增 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_3.jpg' -> 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_3.jpg' (978,916)
+2026-07-31 10:45:18: < 複製新增 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_1.jpg' -> 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_1.jpg' (1,537,380)
+2026-07-31 10:45:18: > 複製新增 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/assets/8-3_條件式生成對抗網路─08_創作_AI.jpg' -> 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-3_條件式生成對抗網路─08_創作_AI.jpg' (2,723,155)
+2026-07-31 10:45:18: > 複製新增 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/assets/8-4_循環式生成對抗網路─08_創作_AI.jpg' -> 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-4_循環式生成對抗網路─08_創作_AI.jpg' (2,444,140)
+2026-07-31 10:45:18: 複製新增 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI.jpg' -> 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI.jpg' (764,770)
+2026-07-31 10:45:18: 複製新增 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_2.jpg' -> 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_2.jpg' (969,124)
+2026-07-31 10:45:18: 複製新增 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_5.jpg' -> 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-2_生成對抗網路─08_創作_AI_5.jpg' (1,041,061)
+2026-07-31 10:45:18: > 複製新增 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/assets/8-5_漫畫人臉生成─08_創作_AI.jpg' -> 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-5_漫畫人臉生成─08_創作_AI.jpg' (2,164,914)
+2026-07-31 10:45:18: > 複製新增 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/assets/8-5_漫畫人臉生成─08_創作_AI_1.jpg' -> 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-5_漫畫人臉生成─08_創作_AI_1.jpg' (4,114,737)
+2026-07-31 10:45:18: < 複製新增 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/assets/8-3_條件式生成對抗網路─08_創作_AI.jpg' -> 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-3_條件式生成對抗網路─08_創作_AI.jpg' (2,723,155)
+2026-07-31 10:45:18: < 複製新增 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/assets/8-4_循環式生成對抗網路─08_創作_AI.jpg' -> 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-4_循環式生成對抗網路─08_創作_AI.jpg' (2,444,140)
+2026-07-31 10:45:18: 複製新增 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/assets/數據空間與數據分佈─08_創作_AI.jpg' -> 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/數據空間與數據分佈─08_創作_AI.jpg' (897,261)
+2026-07-31 10:45:18: < 複製新增 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/assets/8-5_漫畫人臉生成─08_創作_AI.jpg' -> 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-5_漫畫人臉生成─08_創作_AI.jpg' (2,164,914)
+2026-07-31 10:45:18: < 複製新增 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/assets/8-5_漫畫人臉生成─08_創作_AI_1.jpg' -> 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/assets/8-5_漫畫人臉生成─08_創作_AI_1.jpg' (4,114,737)
+2026-07-31 10:45:18: Close Modified Folder (mod-time, acl): /人工智慧導論/內容/assets
+2026-07-31 10:45:18: 儲存狀態檔案 C:/DatabaseOwnedByKen/Obsidian Books/_gsdata_/_file_state_v4._gs
+2026-07-31 10:45:18: 儲存狀態檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/_gsdata_/_file_state_v4._gs
+2026-07-31 10:45:19: == 同步完成。時間：00:00:01，速度：0.00/s, 成功：13，錯誤：0

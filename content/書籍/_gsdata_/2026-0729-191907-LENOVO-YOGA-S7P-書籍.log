@@ -1,0 +1,19 @@
+2026-07-29 19:19:08: -- 分析已由 On File Change First Full Analyze Upon Folder Connect 啟動
+2026-07-29 19:19:08: 左: 讀取狀態檔案 C:/DatabaseOwnedByKen/Obsidian Books/_gsdata_/_file_state_v4._gs
+2026-07-29 19:19:08: 右: 讀取狀態檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/_gsdata_/_file_state_v4._gs
+2026-07-29 19:19:08: 變更：3，衝突：0，複製時間：0，修正狀態：0，錯誤：0, All: 55
+2026-07-29 19:19:08: Left to Right: Copy File: 3 
+2026-07-29 19:19:08: == 同步作業已由 On File Change First Full Analyze Upon Folder Connect 啟動
+2026-07-29 19:19:08: Start only 3 threads, limited by tasks to run
+2026-07-29 19:19:08: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Obsidian Books
+2026-07-29 19:19:08: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Obsidian Books
+2026-07-29 19:19:08: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Obsidian Books
+2026-07-29 19:19:08: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍
+2026-07-29 19:19:08: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍
+2026-07-29 19:19:08: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍
+2026-07-29 19:19:08: 覆寫 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/08 創作 AI.md' -> 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/08 創作 AI.md' (6,022)
+2026-07-29 19:19:08: 覆寫 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/04 影像識別.md' -> 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/04 影像識別.md' (8,284)
+2026-07-29 19:19:08: 覆寫 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/03 圖像識別.md' -> 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/03 圖像識別.md' (10,280)
+2026-07-29 19:19:08: 儲存狀態檔案 C:/DatabaseOwnedByKen/Obsidian Books/_gsdata_/_file_state_v4._gs
+2026-07-29 19:19:08: 儲存狀態檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/_gsdata_/_file_state_v4._gs
+2026-07-29 19:19:09: == 同步完成。時間：00:00:01，速度：0.00/s, 成功：3，錯誤：0

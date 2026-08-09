@@ -1,3 +1,6 @@
+---
+publish: true
+---
 # 總覧成功轉換
 Hint: 很多轉換不了的格式通常透過 Dataview 即可達成，但上手難度微高
 - [ ] Color Text/Color background(Obsidian 依賴 HTML)
@@ -36,7 +39,7 @@ Hint: 很多轉換不了的格式通常透過 Dataview 即可達成，但上手�
 - [ ] Database - inline
 - [x] Database -  full page(Obsidian 的 Base 數據庫)
 - [ ] Linked view of data source
-- [ ] Table of contents(Obsidian 依賴插件 Quiet Outline)
+- [ ] Table of contents(Obsidian 依賴插件 Dynamic Outline)
 - [ ] Button(Obsidian 依賴插件 Buttons)
 - [x] Block equation
 - [ ] Breadcrumb

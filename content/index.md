@@ -1,5 +1,6 @@
 ---
 title: Welcome to KAIHAN's Page
+publish: true
 ---
 
 歡迎來到 KAIHAN 的筆記首頁！

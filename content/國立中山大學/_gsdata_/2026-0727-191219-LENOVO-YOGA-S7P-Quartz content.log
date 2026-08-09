@@ -1,0 +1,11 @@
+2026-07-27 19:12:20: -- 分析已由 On File Change First Full Analyze Upon Folder Connect 啟動
+2026-07-27 19:12:20: 左: 讀取狀態檔案 C:/DatabaseOwnedByKen/Obsidian Personal/國立中山大學/_gsdata_/_file_state_v4._gs
+2026-07-27 19:12:20: 左: State file does not exist: C:/DatabaseOwnedByKen/Obsidian Personal/國立中山大學/_gsdata_/_file_state_v4._gs
+2026-07-27 19:12:20: 右: 讀取狀態檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/國立中山大學/_gsdata_/_file_state_v4._gs
+2026-07-27 19:12:20: 右: State file does not exist: C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/國立中山大學/_gsdata_/_file_state_v4._gs
+2026-07-27 19:12:20: 變更：0，衝突：0，複製時間：0，修正狀態：44，錯誤：0, All: 47
+2026-07-27 19:12:20: == 同步作業已由 On File Change First Full Analyze Upon Folder Connect 啟動
+2026-07-27 19:12:20: Start only 0 threads, limited by tasks to run
+2026-07-27 19:12:20: 儲存狀態檔案 C:/DatabaseOwnedByKen/Obsidian Personal/國立中山大學/_gsdata_/_file_state_v4._gs
+2026-07-27 19:12:20: 儲存狀態檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/國立中山大學/_gsdata_/_file_state_v4._gs
+2026-07-27 19:12:20: == 同步完成。時間：00:00:00，速度：0.00/s, 成功：44，錯誤：0

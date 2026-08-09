@@ -15,6 +15,10 @@ configuration:
     - .trash
     - Excalidraw
     - copilot
+    - _gsdata_
+    - 國立中山大學/_gsdata_
+    - 書籍/_gsdata_
+    - Self-Learning/Developer/_gsdata_
   theme:
     fontOrigin: googleFonts
     cdnCaching: true

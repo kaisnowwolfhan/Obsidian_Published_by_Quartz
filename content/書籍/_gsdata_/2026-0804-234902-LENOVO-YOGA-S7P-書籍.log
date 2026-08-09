@@ -1,0 +1,33 @@
+2026-08-04 23:49:03: -- 分析已由 On File Change, After Delay 啟動
+2026-08-04 23:49:03: 變更：16，衝突：0，複製時間：0，修正狀態：0，錯誤：0, All: 69
+2026-08-04 23:49:03: Right to Left: Copy File: 16 
+2026-08-04 23:49:03: == 同步作業已由 On File Change, After Delay 啟動
+2026-08-04 23:49:03: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Obsidian Books
+2026-08-04 23:49:03: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Obsidian Books
+2026-08-04 23:49:03: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Obsidian Books
+2026-08-04 23:49:03: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Obsidian Books
+2026-08-04 23:49:03: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Obsidian Books
+2026-08-04 23:49:03: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍
+2026-08-04 23:49:03: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍
+2026-08-04 23:49:03: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍
+2026-08-04 23:49:03: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍
+2026-08-04 23:49:03: ConnectCloned connected to file:///C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍
+2026-08-04 23:49:03: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/人工智慧導論.md' -> 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/人工智慧導論.md' (841)
+2026-08-04 23:49:03: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/補充資料/電腦如何進行語意選擇.md' -> 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/補充資料/電腦如何進行語意選擇.md' (3,060)
+2026-08-04 23:49:03: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/補充資料/先驗演算法 及 FP-growth 演算法.md' -> 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/補充資料/先驗演算法 及 FP-growth 演算法.md' (9,222)
+2026-08-04 23:49:03: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/補充資料/如何進行代名詞消解.md' -> 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/補充資料/如何進行代名詞消解.md' (5,424)
+2026-08-04 23:49:03: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/補充資料/學習人工智慧(AI) 的思維模型.md' -> 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/補充資料/學習人工智慧(AI) 的思維模型.md' (2,710)
+2026-08-04 23:49:03: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/補充資料/計算「路徑」的相似度.md' -> 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/補充資料/計算「路徑」的相似度.md' (5,230)
+2026-08-04 23:49:03: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/01 AI 不過就是問個好問題：認識 AI.md' -> 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/01 AI 不過就是問個好問題：認識 AI.md' (8,602)
+2026-08-04 23:49:03: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/04 影像識別.md' -> 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/04 影像識別.md' (8,298)
+2026-08-04 23:49:03: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/05 語音識別.md' -> 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/05 語音識別.md' (16,259)
+2026-08-04 23:49:03: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/03 圖像識別.md' -> 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/03 圖像識別.md' (10,294)
+2026-08-04 23:49:03: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/02 基本的神經網路架構.md' -> 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/02 基本的神經網路架構.md' (7,547)
+2026-08-04 23:49:03: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/09 強化學習.md' -> 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/09 強化學習.md' (5,939)
+2026-08-04 23:49:03: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/07 知識發現.md' -> 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/07 知識發現.md' (23,283)
+2026-08-04 23:49:03: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/08 創作 AI.md' -> 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/08 創作 AI.md' (12,506)
+2026-08-04 23:49:03: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/10 未來世界.md' -> 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/10 未來世界.md' (98)
+2026-08-04 23:49:03: 覆寫 'C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/人工智慧導論/內容/06 自然語言處理.md' -> 'C:/DatabaseOwnedByKen/Obsidian Books/人工智慧導論/內容/06 自然語言處理.md' (19,100)
+2026-08-04 23:49:03: 儲存狀態檔案 C:/DatabaseOwnedByKen/Obsidian Books/_gsdata_/_file_state_v4._gs
+2026-08-04 23:49:03: 儲存狀態檔案 C:/DatabaseOwnedByKen/Quartz/Obsidian_Published_by_Quartz/content/書籍/_gsdata_/_file_state_v4._gs
+2026-08-04 23:49:03: == 同步完成。時間：00:00:00，速度：0.00/s, 成功：16，錯誤：0
