@@ -61,3 +61,9 @@ a{
 	  opacity: 0.9;
   }
 }
+
+// 修正:callout 內的內容(codeblock、表格等)因 grid item 預設 min-width:auto
+// 而撐開容器,導致 overflow-x 失效、看不到橫向 scrollbar
+.callout-content > * {
+  min-width: 0;
+}

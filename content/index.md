@@ -9,3 +9,11 @@ publish: true
 *Update frequency: Irregular*
 See the [documentation](https://bf60c891.quartz-1h4.pages.dev/#-get-started) and the youtube video below for how to get started deploying Quartz.
 ![](https://youtu.be/6s6DT1yN4dw?si=k7MBJ-lAf-DkfPpr)
+
+> [!note] 測試：callout 包裹超長 codeblock
+> ```js
+> const veryLongVariableNameForTestingHorizontalScrollBehavior = "這是一段刻意寫得很長很長很長很長很長很長很長很長很長很長很長很長很長很長很長很長的字串，用來確認 codeblock 在 callout 裡面是否會正常出現橫向捲軸，而不是被裁切或撐爆版面";
+> function anotherLongLineToMakeSureTheHorizontalScrollTriggersProperlyEvenWithoutLineBreaks() {
+>   return veryLongVariableNameForTestingHorizontalScrollBehavior.length + 100000000000;
+> }
+> ```
