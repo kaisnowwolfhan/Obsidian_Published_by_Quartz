@@ -16,4 +16,4 @@ views:
       - property: 法規分類
         direction: ASC
     columnSize:
-      note.Tag: 331
+      note.法規分類: 346

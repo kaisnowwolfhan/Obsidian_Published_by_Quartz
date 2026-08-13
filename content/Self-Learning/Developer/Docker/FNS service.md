@@ -1,7 +1,6 @@
 ---
 publish: true
 ---
-
 主要服務官網: [fast-note-sync-service(以下皆稱 FNS or FNS service)](https://github.com/haierkeys/fast-note-sync-service), [Docker](https://www.docker.com), [Tailscale](https://tailscale.com)
 
 # 前置步驟

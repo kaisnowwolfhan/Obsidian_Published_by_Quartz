@@ -1,5 +1,6 @@
 ---
 publish: true
+status: 已完稿
 ---
 
 ## 1. 表示學習與概念層次模型 (Representation Learning & Hierarchy of Concepts)
